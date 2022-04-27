@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+ 
+ 
+ 
+<img src = "logo2.png" alt = "Test Image" />
+ 
+<p id="demo"></p> 
+ <script>
+var b = localStorage.getItem("myValue");
+//alert("The Value Received is " + b);
+  document.getElementById("demo").innerHTML = b;
+var resetValue =0;
+localStorage.setItem("myValue", resetValue);
+       
+    </script>
+
+</body>   
+    
+  
+</html>
